@@ -1,3 +1,4 @@
+# **Intelligent** **Knowledge-Based** **System**
 
 完全可行！**Git + Markdown + VS Code** 这个组合，恰恰是构建“个人知识库 + 版本管理 + AI调用”最成熟、最灵活的技术路线之一。
 
