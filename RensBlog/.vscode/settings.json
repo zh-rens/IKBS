@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+      "*.vitepress/config.*": "jsonc"
+    },
+    "markdownlint.ignore": ["**/*.md"],
+    "editor.formatOnSave": true,
+    "markdown.editor.filePaste.enabled": true,
+    "markdown.editor.filePaste.path": "/public/images/${fileName}"
+  }
+  
