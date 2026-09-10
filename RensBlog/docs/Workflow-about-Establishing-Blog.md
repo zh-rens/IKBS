@@ -2,6 +2,7 @@
 
 ### 前置介绍1：文件目录及其作用
 
+```
 RensBlog/                          # 项目根目录（VitePress 博客站点）
 ├── docs/                          # VitePress 项目文档根目录
 │   ├── .vitepress/                # VitePress 配置与构建输出目录
@@ -15,14 +16,15 @@ RensBlog/                          # 项目根目录（VitePress 博客站点）
 │   │   ├── theme/                 # 自定义主题目录
 │   │   │   ├── index.ts           # 主题入口配置
 │   │   │   └── style.css          # 自定义样式
-│   │   └── **config.mts             # 站点配置文件（可调标题、导航、侧边栏等）**
+│   │   └── config.mts             # 站点配置文件（可调标题、导航、侧边栏等）
 │   ├── api-examples.md            # API 示例页面
 │   ├── firstdemo.md               # 自定义演示页面
-│   ├── **index.md                   # 站点首页（访问 / 时显示）**
+│   ├── index.md                   # 站点首页（访问 / 时显示）
 │   └── markdown-examples.md       # Markdown 语法示例页面
 ├── node_modules/                  # 项目依赖包目录
-├── **package.json                   # 项目配置与脚本（dev/build/preview）**
+├── package.json                   # 项目配置与脚本（dev/build/preview）
 └── package-lock.json              # 依赖锁定文件
+```
 
  **原理** ：VitePress 使用 **基于文件的路由** ——每个 `.md` 文件自动对应一个 HTML 页面。例如：
 
@@ -36,12 +38,12 @@ RensBlog/                          # 项目根目录（VitePress 博客站点）
 **最终实现框架是：VitePress v1.6.4构建+Github托管+Cloudflare部署**
 
 ```
-┌───────┐     push/commit              ┌───────┐     自动构建/部署     ┌────  ─┐
-│   本地电脑          │ ─────────→  │   GitHub              │ ───────→ │  Cloudflare │
-│  (开发环境)        │                                                │  (代码仓库)        │                                      │  (托管平台)  │
-└─────   ─ ┘                                                └───────┘                                      └────  ─┘
-       ↑                                                                                            │
-       └───────── ──  访问 https://your-site.pages.dev ←────────────┘
+┌─────────────┐     push/commit      ┌─────────────┐     自动构建/部署      ┌─────────────┐
+│   本地电脑   │ ───────────────────→ │   GitHub    │ ───────────────────→ │  Cloudflare │
+│  (开发环境)  │                      │  (代码仓库)  │                      │  (托管平台)  │
+└─────────────┘                      └─────────────┘                      └─────────────┘
+       ↑                                                                    │
+       └────────────────────  访问 https://your-site.pages.dev ←────────────┘
 ```
 
 | 层级           | 技术              | 说明                                                           |
