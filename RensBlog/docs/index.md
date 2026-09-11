@@ -20,7 +20,7 @@ features:
     link: /Workflow-about-Establishing-Blog
   - title: Static-Electricty
     details: 静电：身边看不见的"小闪电"
-    links:/Static-Electricty
+    links: /Static-Electricty
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
