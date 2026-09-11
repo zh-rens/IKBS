@@ -18,8 +18,9 @@ features:
   - title:  How to create Blog
     details: 创建这个博客的流程，以及遇到的一些坑~
     link: /Workflow-about-Establishing-Blog
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: Static-Electricty
+    details: 静电：身边看不见的"小闪电"
+    links:/Static-Electricty
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
