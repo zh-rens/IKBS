@@ -15,7 +15,7 @@ hero:
       link: /api-examples
 
 features:
-  - title:  How to create Blog
+  - title: How to create Blog
     details: 创建这个博客的流程，以及遇到的一些坑~
     link: /Workflow-about-Establishing-Blog
   - title: Static-Electricty
