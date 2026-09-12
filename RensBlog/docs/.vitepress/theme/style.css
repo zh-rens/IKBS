@@ -43,7 +43,7 @@
  *   in custom container, badges, etc.
  * -------------------------------------------------------------------------- */
 
-:root {
+ :root {
   --vp-c-default-1: var(--vp-c-gray-1);
   --vp-c-default-2: var(--vp-c-gray-2);
   --vp-c-default-3: var(--vp-c-gray-3);
@@ -135,4 +135,22 @@
 
 .DocSearch {
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
+}
+/*
+ * Component: 加宽正文区域
+ * -------------------------------------------------------------------------- */
+/* 正文的默认最大宽度是 688px，这里加宽到 960px */
+.content-container {
+  max-width: 960px !important;
+}
+
+/**
+ * Component: Nav Auto Hide
+ * -------------------------------------------------------------------------- */
+.VPNav {
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.VPNav.nav-hidden {
+  transform: translateY(-100%);
 }
