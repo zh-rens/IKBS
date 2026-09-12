@@ -140,9 +140,9 @@
  * Component: 加宽正文区域
  * -------------------------------------------------------------------------- */
 /* 正文的默认最大宽度是 688px，这里加宽到 960px */
-.content-container {
+/* .content-container {
   max-width: 960px !important;
-}
+} */
 
 /**
  * Component: Nav Auto Hide
@@ -153,4 +153,16 @@
 
 .VPNav.nav-hidden {
   transform: translateY(-100%);
+}
+
+/**
+ * 彻底透明化顶部“本页目录”导航条 (.VPLocalNav)
+ * -------------------------------------------------------------------------- */
+
+ .VPLocalNav {
+  background-color: transparent !important;
+  /* 如果你不想要下面那条灰色的分割线，把下面这行也加上 */
+  border-bottom: none !important;
+  /* 移除可能存在的毛玻璃模糊效果 */
+  backdrop-filter: none !important;
 }
