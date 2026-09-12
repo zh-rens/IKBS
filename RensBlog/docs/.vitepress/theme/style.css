@@ -166,3 +166,12 @@
   /* 移除可能存在的毛玻璃模糊效果 */
   backdrop-filter: none !important;
 }
+
+/**
+ * Component: Giscus 评论区
+ * -------------------------------------------------------------------------- */
+.giscus-wrapper {
+  margin-top: 48px;
+  padding-top: 24px;
+  border-top: 1px solid var(--vp-c-divider);
+}

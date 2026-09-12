@@ -3,6 +3,7 @@ import { h, onBeforeUnmount, onMounted } from 'vue'
 import type { Theme } from 'vitepress'
 import DefaultTheme from 'vitepress/theme'
 import './style.css'
+import Comment from './components/Comment.vue'
 
 // 导航栏滚动隐藏逻辑
 function useScrollNav() {
@@ -50,7 +51,10 @@ function useScrollNav() {
 const CustomLayout = {
   setup() {
     useScrollNav()
-    return () => h(DefaultTheme.Layout, null, {})
+    return () =>
+      h(DefaultTheme.Layout, null, {
+        'doc-after': () => h(Comment)
+      })
   }
 }
 
