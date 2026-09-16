@@ -21,6 +21,7 @@ features:
   - title: Static-Electricty
     details: 静电：身边看不见的"小闪电"
     link: /Static-Electricty
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: The First Complaint
+    details: 教学生涯接到的第一起投诉
+    link: /The-First-Complaint
 ---
