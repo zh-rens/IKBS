@@ -23,5 +23,5 @@ features:
     link: /Static-Electricty
   - title: The First Complaint
     details: 教学生涯接到的第一起投诉
-    link: /The-First-Complaint
+    link: /First-Complaint
 ---
