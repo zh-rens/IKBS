@@ -8,11 +8,12 @@ hero:
   tagline: 情人若 寂寥地 出生在1874，刚刚早 一百年 一个世纪，是否终身 都这样 顽强地等··
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
       text: All Articles
       link: /Articles
+    - theme: alt
+      text: Markdown Examples
+      link: /markdown-examples
+
 
 features:
   - title: How to create Blog
