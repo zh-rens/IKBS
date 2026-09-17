@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Examples', link: '/markdown-examples' },
-      { text: 'Articles', link: '/articles' },   // ← 新增
+      { text: 'Articles', link: '/Articles' },   // ← 新增
     ],
     // 👇 把当前文章的目录放到左侧
     aside: 'left',
