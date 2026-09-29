@@ -9,7 +9,7 @@ title: 全部文章
 
 | 日期       | 标题                                                          | 标签                   |
 | :--------- | :------------------------------------------------------------ | :--------------------- |
-| 2026-09-29 | [留学信息汇总](StudyAbroad\留学信息汇总)                       | `留学` `出国`      |
+| 2026-09-29 | [留学信息汇总](StudyAbroad/留学信息汇总)                       | `留学` `出国`      |
 | 2026-09-17 | [First-Complaint](/First-Complaint)                            | `教学` `物理`      |
 | 2026-09-13 | [Static-Electricty：静电](/Static-Electricty)                  | `物理` `科普`      |
 | 2026-09-10 | [如何用 VitePress 搭建博客](/Workflow-about-Establishing-Blog) | `教程` `VitePress` |
