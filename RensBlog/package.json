@@ -15,5 +15,9 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "katex": "^0.19.1",
+    "markdown-it-katex": "^2.0.3"
+  }
 }
